@@ -1,0 +1,15 @@
+/* To learn more about this file see: https://docs.cypress.io/guides/tooling/typescript-support. */
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
+    "types": ["cypress", "node", "./cypress/support"],
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts",
+    "./support/cypress.d.ts"
+  ]
+}
